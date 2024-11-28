@@ -7,7 +7,7 @@ In the study, we augmented the [CWRU](https://engineering.case.edu/bearingdatace
 
 # Files
 
-The extracted feature libraries for each dataset can be found in the [data](/data/) folder. The [pykan](/pykan/) folder contains some modified files from the [pykan library]() (see below for details). The `utils.py` file contains some basic utilities used throughout all experiments. The main files are `CWRU.ipynb` and `MaFaulDa.ipynb`, containing the structure to carry out the experiments presented in the paper.
+The extracted feature libraries for each dataset can be found in the [data](/data/) folder. The [pykan](/pykan/) folder contains some modified files from the [pykan library](https://github.com/KindXiaoming/pykan) (see below for details). The `utils.py` file contains some basic utilities used throughout all experiments. The main files are `CWRU.ipynb` and `MaFaulDa.ipynb`, containing the structure to carry out the experiments presented in the paper.
 
 # Installation
 
@@ -23,7 +23,7 @@ Then, activate the environment via `env\Scripts\activate` for Windows or `source
 pip3 install -r requirements.txt
 ```
 
-Note that packages like Jupyter Lab are not included in the requirements, although the experiments are in `.ipynb` notebooks, so you will have to install one to run them, e.g. via `pip3 install jupyterlab`. Additionally, `pytorch` is not included in the dependencies because we used the GPU version for acceleration. Depending on your CUDA setup, you are advised to install the corresponding version via [their website](https://pytorch.org/).
+Note that packages like Jupyter Lab are not included in the requirements, although the experiments are in `.ipynb` notebooks, so you will have to install one to run them, e.g. via `pip3 install jupyterlab`. Additionally, `torch` is not included in the dependencies because we used the GPU version for acceleration. Depending on your CUDA setup, you are advised to install the corresponding version via [their website](https://pytorch.org/).
 
 As mentioned above, our code runs on a modified version of the pykan library. Providing an extended changelog would be less practical, so instead we include our versions of the modified files in the pykan folder. You may either install pykan via pip (which is also not included in the dependencies) and then replace the corresponding files, or directly download their codebase locally and replace the corresponding files.
 
@@ -32,7 +32,7 @@ During development, our version of torch was `2.5.0+cu118` and our version of py
 
 # Attribution
 
-If the results, code and/or extracted feature libraries presented here helped you for your own work, feel free to cite our GitHub and/or paper as:
+If the code and/or extracted feature libraries presented here helped you for your own work, feel free to cite our GitHub repo and/or paper as:
 
 ```
 TODO
