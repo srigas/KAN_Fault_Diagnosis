@@ -1,0 +1,10 @@
+numpy==1.24.4
+matplotlib==3.6.2
+pandas==2.0.1
+scikit-learn==1.1.3
+setuptools==65.5.0
+sympy==1.13.1
+tqdm==4.66.2
+seaborn==0.13.2
+paretoset==1.2.4
+pywavelets==1.7.0
