@@ -35,5 +35,13 @@ During development, our version of torch was `2.5.0+cu118` and our version of py
 If the code and/or extracted feature libraries presented here helped you for your own work, feel free to cite our GitHub repo and/or paper as:
 
 ```
-TODO
+@misc{rigas2024explainablefaultseverityclassification,
+      title={Explainable fault and severity classification for rolling element bearings using Kolmogorov-Arnold networks}, 
+      author={Spyros Rigas and Michalis Papachristou and Ioannis Sotiropoulos and Georgios Alexandridis},
+      year={2024},
+      eprint={2412.01322},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.01322}, 
+}
 ```
