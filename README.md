@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains all the materials used in the experiments described in the paper "[Explainable fault and severity classification for rolling element bearings using Kolmogorov-Arnold networks](https://TODO)".
+This repository contains all the materials used in the experiments described in the paper "[Explainable fault and severity classification for rolling element bearings using Kolmogorov-Arnold networks](https://arxiv.org/abs/2412.01322)".
 
 In the study, we augmented the [CWRU](https://engineering.case.edu/bearingdatacenter) and [MaFaulDa](https://www02.smt.ufrj.br/~offshore/mfs) datasets and subsequently extracted feature libraries from them, in order to apply our Kolmogorov-Arnold network (KAN)-based framework for automatic feature and model selection. The experiments focused on three key tasks: fault detection, fault classification, and severity classification. While centered on bearing faults, our approach also extended to other types of machinery failures via the MaFaulDa dataset.
 
