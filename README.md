@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains all the materials used in the experiments described in the paper "[Explainable fault and severity classification for rolling element bearings using Kolmogorov-Arnold networks](https://arxiv.org/abs/2412.01322)".
+This repository contains all the materials used in the experiments described in the paper "[Explainable fault and severity classification for rolling element bearings using Kolmogorov-Arnold networks](https://www.mdpi.com/1099-4300/27/4/403)".
 
 In the study, we augmented the [CWRU](https://engineering.case.edu/bearingdatacenter) and [MaFaulDa](https://www02.smt.ufrj.br/~offshore/mfs) datasets and subsequently extracted feature libraries from them, in order to apply our Kolmogorov-Arnold network (KAN)-based framework for automatic feature and model selection. The experiments focused on three key tasks: fault detection, fault classification, and severity classification. While centered on bearing faults, our approach also extended to other types of machinery failures via the MaFaulDa dataset.
 
@@ -35,13 +35,13 @@ During development, our version of torch was `2.5.0+cu118` and our version of py
 If the code and/or extracted feature libraries presented here helped you for your own work, feel free to cite our GitHub repo and/or paper as:
 
 ```
-@misc{rigas2024explainablefaultseverityclassification,
-      title={Explainable fault and severity classification for rolling element bearings using Kolmogorov-Arnold networks}, 
-      author={Spyros Rigas and Michalis Papachristou and Ioannis Sotiropoulos and Georgios Alexandridis},
-      year={2024},
-      eprint={2412.01322},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.01322}, 
+@article{explainfault,
+      author = {Spyros Rigas and Michalis Papachristou and Ioannis Sotiropoulos and Georgios Alexandridis},
+      title = {Explainable Fault Classification and Severity Diagnosis in Rotating Machinery Using Kolmogorov–Arnold Networks},
+      journal = {Entropy},
+      volume = {27},
+      year = {2025},
+      number = {4},
+      doi = {10.3390/e27040403}
 }
 ```
